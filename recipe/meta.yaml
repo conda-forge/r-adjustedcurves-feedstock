@@ -1,4 +1,4 @@
-{% set version = "0.11.4" %}
+{% set version = "0.12.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/adjustedCurves_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/adjustedCurves/adjustedCurves_{{ version }}.tar.gz
-  sha256: 0a92c98afe4d1b954629510df88ff7ce906b3bfaf0049807bc06d4fdd9e65000
+  sha256: 06ac2fd2862e29355bf227d903517efea4b2f1c927a718bc48d1317222925f35
 
 build:
   number: 0
